@@ -1,1 +1,36 @@
-/* место для вашего кода */
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header_logo{
+    width: 148px; 
+    height: 105px;
+}
+.cover{
+    width: 1100px; 
+    height: 757px;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.lots{
+    width: 1052px; 
+    height: 723px;
+}
+.radial{
+    width: 240px; 
+    height: 240px; 
+    border-radius: 50%; 
+    background: rgb(0, 0, 0);
+}
+.logo{
+    width: 136px; 
+    height: 102px;
+    
+}
+.links{
+    width: 48px; 
+    height: 48px;
+}
