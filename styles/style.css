@@ -38,12 +38,12 @@
 
 .address {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .header_address {
     justify-self: end;
-    max-width: 240px; 
+    max-width: 240px;
 }
 
 .address_text {
@@ -248,7 +248,7 @@
 
 .about_logo-image {
     width: 149px;
-    height: 114px;    
+    height: 114px;
 }
 
 .about_content {
