@@ -1,12 +1,11 @@
 .header {
+    /*Исправленно. Свойство height удалено*/
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     margin: 0;
     padding: 90px 50px 96px 50px;
     width: 1100px;
-    height: 293px;
-
 }
 
 .header_logo {
@@ -26,7 +25,8 @@
 }
 
 .menu_item {
-    font-family: Raleway;
+    /*Исправленно. Указаны альтернативные варианты шрифтов*/
+    font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
@@ -47,7 +47,7 @@
 }
 
 .address_text {
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
@@ -78,7 +78,7 @@
 
 .cover_title {
     color: rgba(255, 255, 255, 1);
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 100px;
     font-weight: 700;
     letter-spacing: 30px;
@@ -103,9 +103,9 @@
 }
 
 .description {
+    /*Исправленно. Свойство height удалено*/
     display: flex;
     width: 1000px;
-    height: 51px;
     justify-content: space-between;
     margin-top: 106px;
 }
@@ -113,7 +113,7 @@
 .cover_description-text {
     word-spacing: 15px;
     color: rgba(255, 255, 255, 1);
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
@@ -135,17 +135,17 @@
 }
 
 .lots {
+    /*Исправленно. Свойство height удалено*/
     display: flex;
     flex-direction: column;
     width: 1100px;
-    height: 723px;
     margin-bottom: 120px;
     padding: 0 24px 0;
 }
 
 .lots_title {
     color: rgba(0, 0, 0, 1);
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -180,11 +180,13 @@
     padding: 48px 40px;
     z-index: 1;
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .card_title {
     color: rgba(255, 255, 255, 1);
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
@@ -193,26 +195,21 @@
 }
 
 .card_type-film {
+    /*Исправленно. Удалены повторяющиеся свойства*/
     background-image: url(../images/card-lot-01.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
  .card_type-book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
- }
+}
 
 .card_type-picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .card_text {
     color: rgba(255, 255, 255, 1);
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -220,18 +217,18 @@
 
 .lots_more-link {
     color: rgba(0, 0, 0, 1);
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin: 30px 2px 0 40px;
 }
 
 .about {
+    /*Исправленно. Свойство height удалено*/
     display: grid;
     grid-template-columns: 334px 1fr;
     width: 1052px;
-    height: 595px;
-    margin: 0 24px 180px 24px;
+    margin: 0 24px 157px 24px;
     gap: 25px;
 }
 
@@ -257,7 +254,7 @@
 
 .about_title {
     color: rgba(0, 0, 0, 1);
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 100%;
@@ -268,7 +265,7 @@
 
 .about_text {
     color: rgba(0, 0, 0, 1);
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -285,13 +282,13 @@
 }
 
 .address_footer {
+    /*Исправленно. Свойство height удалено*/
     justify-self: start;
     width: 265px;
-    height: 98px;
 }
 
 .footer_menu {
-    height: 64px;
+    /*Исправленно. Свойство height удалено*/
     min-width: 164px;
 }
 
@@ -302,8 +299,8 @@
 }
 
 .list_social {
+    /*Исправленно. Свойство height удалено*/
     width: 240px;
-    height: 48px;
     display: flex;
     gap: 48px;
 }
