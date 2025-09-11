@@ -14,14 +14,14 @@
       <nav class="header_menu">
         <ul class="header_menu-list">
           <li class="menu_item menu_item-active">
-            <!--Исправленно. Удалил подчеркивание-->
-            <a class="header_menu-link">главная</a>
+            <!--Исправленно. Удалил подчеркивание. Указал атрибут href-->
+            <a class="menu_link-active" href="#0">главная</a>
           </li>
           <li class="menu_item">
-            <a class="header_menu-link" href="#0">посмотреть лоты</a>
+            <a class="menu_link" href="#0">посмотреть лоты</a>
           </li>
           <li class="menu_item">
-            <a class="header_menu-link" href="#0">об аукционе</a>
+            <a class="menu_link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -54,7 +54,7 @@
           <p class="cover_description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <!--Исправленно. Добавлен type="button-->
+          <!--Исправленно. Добавлен type="button"-->
           <button class="bet_button" type="button">Сделать ставку</button>
         </div>
       </section>
@@ -65,7 +65,7 @@
             <a class="card_link" href="#0">
               <article class="card card_type-film">
                 <div class="overlay_layer"></div>
-                <!--Исправленно. тег <span> изменен на <h3>-->
+                <!--Исправленно. тег <span> изменен на <h3>. Убрал подчеркивание у параграфов-->
                 <h3 class="card_title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -152,9 +152,15 @@
         <!--Исправленно. Для активной ссылки меню в шапке и подвале создан отдельный класс-->
         <ul class="footer_menu-list">
           <!--Исправленно. Для ссылки добавлен атрибут href-->
-          <li class="menu_item menu_item-active"><a>главная</a></li>
-          <li class="menu_item"><a href="#0">посмотреть лоты</a></li>
-          <li class="menu_item"><a href="#0">об аукционе</a></li>
+          <li class="menu_item menu_item-active">
+            <a class="menu_link-active" href="#0">главная</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="#0">об аукционе</a>
+          </li>
         </ul>
       </nav>
       <ul class="list_social">
